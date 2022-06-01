@@ -6,6 +6,11 @@
 
 ![Status](https://github.com/babltiga/sftp-exporter/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)
 
+![Known Vulnerabilities](https://snyk.io/test/github/babltiga/sftp-exporter/badge.svg)
+
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=babltiga_sftp-exporter&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=babltiga_sftp-exporter)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=babltiga_sftp-exporter&metric=bugs)](https://sonarcloud.io/summary/new_code?id=babltiga_sftp-exporter)
 
 ## Configurations
 
