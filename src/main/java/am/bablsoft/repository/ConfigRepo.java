@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 
 @ApplicationScoped
 public class ConfigRepo {
-    private static final String PATH_DELIMITER = "|||";
+    private static final String PATH_DELIMITER = ",,";
 
     @ConfigProperty(name = "SFTP_HOST")
     @Getter
