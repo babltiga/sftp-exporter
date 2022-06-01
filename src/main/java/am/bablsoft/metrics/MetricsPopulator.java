@@ -60,7 +60,7 @@ public class MetricsPopulator {
      * @return The reference to the value of the gauge.
      */
     AtomicLong addGauge(String key, String path){
-        return registry.gaugeCollectionSize(key, Objects.isNull(path) ? Tags.empty() : Tags.of("path", path), new AtomicLong(0));
+        return registry.gauge(key, Objects.isNull(path) ? Tags.empty() : Tags.of("path", path), new AtomicLong(0));
     }
 
 }
