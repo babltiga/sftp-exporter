@@ -37,7 +37,7 @@ jobs:
           image: babltiga/sftp-exporter:latest
           args: --file=src/main/docker/Dockerfile.native-micro
       - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@v1
+        uses: github/codeql-action/upload-sarif@v2 --severity-threshold=high
         with:
           sarif_file: snyk.sarif
       - name: Set up Docker Buildx
